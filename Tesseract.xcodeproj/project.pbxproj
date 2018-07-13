@@ -7,23 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B274F2920F85FF200A1EBA9 /* text.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B274F2820F85FF200A1EBA9 /* text.png */; };
+		8B274F3120F861B500A1EBA9 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 8B274F3020F861B500A1EBA9 /* tessdata */; };
+		8B274F3320F883A900A1EBA9 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B274F3220F883A900A1EBA9 /* logo.png */; };
+		8B274F3520F886E300A1EBA9 /* tag.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B274F3420F886E300A1EBA9 /* tag.png */; };
+		8B274F3820F8888A00A1EBA9 /* yourWords.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B274F3720F8888A00A1EBA9 /* yourWords.png */; };
+		8B274F3A20F8897200A1EBA9 /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B274F3920F8897200A1EBA9 /* CameraVC.swift */; };
+		8B274F3E20F88CC000A1EBA9 /* Pokeball.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B274F3D20F88CC000A1EBA9 /* Pokeball.png */; };
+		8B274F4020F895AB00A1EBA9 /* WordPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B274F3F20F895AB00A1EBA9 /* WordPickerVC.swift */; };
+		8B274F4420F8994100A1EBA9 /* save.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B274F4220F8994100A1EBA9 /* save.png */; };
+		8B274F4520F8994100A1EBA9 /* go.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B274F4320F8994100A1EBA9 /* go.png */; };
+		8B274F4720F8AB7B00A1EBA9 /* PhotoLibraryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B274F4620F8AB7B00A1EBA9 /* PhotoLibraryVC.swift */; };
+		8B274F4920F8ABA500A1EBA9 /* ManualEntryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B274F4820F8ABA500A1EBA9 /* ManualEntryVC.swift */; };
+		8B274F4D20F8AD3F00A1EBA9 /* photoLib.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B274F4A20F8AD3E00A1EBA9 /* photoLib.png */; };
+		8B274F4E20F8AD3F00A1EBA9 /* keyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B274F4B20F8AD3F00A1EBA9 /* keyboard.png */; };
+		8B274F4F20F8AD3F00A1EBA9 /* camera.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B274F4C20F8AD3F00A1EBA9 /* camera.png */; };
+		8B274F5120F8B01700A1EBA9 /* checkWord.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B274F5020F8B01700A1EBA9 /* checkWord.png */; };
+		8B274F5320F8B16500A1EBA9 /* definition.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B274F5220F8B16400A1EBA9 /* definition.png */; };
+		8B274F5520F8C64C00A1EBA9 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B274F5420F8C64B00A1EBA9 /* check.png */; };
+		8B73E01120F931CE004690A5 /* pokemon_go.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8B73E01020F931CE004690A5 /* pokemon_go.mp3 */; };
+		8B73E01320F93A94004690A5 /* translation.png in Resources */ = {isa = PBXBuildFile; fileRef = 8B73E01220F93A94004690A5 /* translation.png */; };
+		8B73E01520F93BB2004690A5 /* TranslateVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B73E01420F93BB2004690A5 /* TranslateVC.swift */; };
 		8BC333B420F85E4C00F9D077 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC333B320F85E4C00F9D077 /* AppDelegate.swift */; };
-		8BC333B620F85E4C00F9D077 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC333B520F85E4C00F9D077 /* ViewController.swift */; };
+		8BC333B620F85E4C00F9D077 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BC333B520F85E4C00F9D077 /* MainVC.swift */; };
 		8BC333B920F85E4C00F9D077 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC333B720F85E4C00F9D077 /* Main.storyboard */; };
 		8BC333BC20F85E4C00F9D077 /* Tesseract.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8BC333BA20F85E4C00F9D077 /* Tesseract.xcdatamodeld */; };
 		8BC333BE20F85E4D00F9D077 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BC333BD20F85E4D00F9D077 /* Assets.xcassets */; };
 		8BC333C120F85E4D00F9D077 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BC333BF20F85E4D00F9D077 /* LaunchScreen.storyboard */; };
+		C04DC0C870BDC907A8E07EE5 /* Pods_Tesseract.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A91ABB5614CBAD91C7BB78 /* Pods_Tesseract.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		555855F627019EEDB186CAC6 /* Pods-Tesseract.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tesseract.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tesseract/Pods-Tesseract.release.xcconfig"; sourceTree = "<group>"; };
+		8B274F2820F85FF200A1EBA9 /* text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text.png; sourceTree = "<group>"; };
+		8B274F3020F861B500A1EBA9 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		8B274F3220F883A900A1EBA9 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		8B274F3420F886E300A1EBA9 /* tag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tag.png; sourceTree = "<group>"; };
+		8B274F3620F8888000A1EBA9 /* catchButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = catchButton.png; sourceTree = "<group>"; };
+		8B274F3720F8888A00A1EBA9 /* yourWords.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yourWords.png; sourceTree = "<group>"; };
+		8B274F3920F8897200A1EBA9 /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
+		8B274F3D20F88CC000A1EBA9 /* Pokeball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pokeball.png; sourceTree = "<group>"; };
+		8B274F3F20F895AB00A1EBA9 /* WordPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordPickerVC.swift; sourceTree = "<group>"; };
+		8B274F4220F8994100A1EBA9 /* save.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = save.png; sourceTree = "<group>"; };
+		8B274F4320F8994100A1EBA9 /* go.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = go.png; sourceTree = "<group>"; };
+		8B274F4620F8AB7B00A1EBA9 /* PhotoLibraryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoLibraryVC.swift; sourceTree = "<group>"; };
+		8B274F4820F8ABA500A1EBA9 /* ManualEntryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualEntryVC.swift; sourceTree = "<group>"; };
+		8B274F4A20F8AD3E00A1EBA9 /* photoLib.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photoLib.png; sourceTree = "<group>"; };
+		8B274F4B20F8AD3F00A1EBA9 /* keyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keyboard.png; sourceTree = "<group>"; };
+		8B274F4C20F8AD3F00A1EBA9 /* camera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = camera.png; sourceTree = "<group>"; };
+		8B274F5020F8B01700A1EBA9 /* checkWord.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkWord.png; sourceTree = "<group>"; };
+		8B274F5220F8B16400A1EBA9 /* definition.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = definition.png; sourceTree = "<group>"; };
+		8B274F5420F8C64B00A1EBA9 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
+		8B73E01020F931CE004690A5 /* pokemon_go.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pokemon_go.mp3; sourceTree = "<group>"; };
+		8B73E01220F93A94004690A5 /* translation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = translation.png; sourceTree = "<group>"; };
+		8B73E01420F93BB2004690A5 /* TranslateVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateVC.swift; sourceTree = "<group>"; };
 		8BC333B020F85E4C00F9D077 /* Tesseract.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tesseract.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BC333B320F85E4C00F9D077 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8BC333B520F85E4C00F9D077 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8BC333B520F85E4C00F9D077 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		8BC333B820F85E4C00F9D077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8BC333BB20F85E4C00F9D077 /* Tesseract.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tesseract.xcdatamodel; sourceTree = "<group>"; };
 		8BC333BD20F85E4D00F9D077 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BC333C020F85E4D00F9D077 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BC333C220F85E4D00F9D077 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5C01C7B1A5A5C11192B87D4 /* Pods-Tesseract.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tesseract.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tesseract/Pods-Tesseract.debug.xcconfig"; sourceTree = "<group>"; };
+		F7A91ABB5614CBAD91C7BB78 /* Pods_Tesseract.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tesseract.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +78,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C04DC0C870BDC907A8E07EE5 /* Pods_Tesseract.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B274F4120F8992600A1EBA9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				8B73E01220F93A94004690A5 /* translation.png */,
+				8B73E01020F931CE004690A5 /* pokemon_go.mp3 */,
+				8B274F5020F8B01700A1EBA9 /* checkWord.png */,
+				8B274F4C20F8AD3F00A1EBA9 /* camera.png */,
+				8B274F5220F8B16400A1EBA9 /* definition.png */,
+				8B274F4B20F8AD3F00A1EBA9 /* keyboard.png */,
+				8B274F4A20F8AD3E00A1EBA9 /* photoLib.png */,
+				8B274F3D20F88CC000A1EBA9 /* Pokeball.png */,
+				8B274F3620F8888000A1EBA9 /* catchButton.png */,
+				8B274F3720F8888A00A1EBA9 /* yourWords.png */,
+				8B274F5420F8C64B00A1EBA9 /* check.png */,
+				8B274F4320F8994100A1EBA9 /* go.png */,
+				8B274F4220F8994100A1EBA9 /* save.png */,
+				8B274F2820F85FF200A1EBA9 /* text.png */,
+				8B274F3220F883A900A1EBA9 /* logo.png */,
+				8B274F3420F886E300A1EBA9 /* tag.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		8BC333A720F85E4C00F9D077 = {
 			isa = PBXGroup;
 			children = (
 				8BC333B220F85E4C00F9D077 /* Tesseract */,
 				8BC333B120F85E4C00F9D077 /* Products */,
+				CD33AD0B0E12E614B02C2712 /* Pods */,
+				AA8D93A5F6E021B4D157AEF5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +129,15 @@
 		8BC333B220F85E4C00F9D077 /* Tesseract */ = {
 			isa = PBXGroup;
 			children = (
+				8B274F4120F8992600A1EBA9 /* Images */,
 				8BC333B320F85E4C00F9D077 /* AppDelegate.swift */,
-				8BC333B520F85E4C00F9D077 /* ViewController.swift */,
+				8BC333B520F85E4C00F9D077 /* MainVC.swift */,
+				8B274F3920F8897200A1EBA9 /* CameraVC.swift */,
+				8B274F3F20F895AB00A1EBA9 /* WordPickerVC.swift */,
+				8B274F4620F8AB7B00A1EBA9 /* PhotoLibraryVC.swift */,
+				8B274F4820F8ABA500A1EBA9 /* ManualEntryVC.swift */,
+				8B73E01420F93BB2004690A5 /* TranslateVC.swift */,
+				8B274F3020F861B500A1EBA9 /* tessdata */,
 				8BC333B720F85E4C00F9D077 /* Main.storyboard */,
 				8BC333BD20F85E4D00F9D077 /* Assets.xcassets */,
 				8BC333BF20F85E4D00F9D077 /* LaunchScreen.storyboard */,
@@ -67,6 +147,23 @@
 			path = Tesseract;
 			sourceTree = "<group>";
 		};
+		AA8D93A5F6E021B4D157AEF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7A91ABB5614CBAD91C7BB78 /* Pods_Tesseract.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD33AD0B0E12E614B02C2712 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F5C01C7B1A5A5C11192B87D4 /* Pods-Tesseract.debug.xcconfig */,
+				555855F627019EEDB186CAC6 /* Pods-Tesseract.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +171,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BC333C520F85E4D00F9D077 /* Build configuration list for PBXNativeTarget "Tesseract" */;
 			buildPhases = (
+				FD288D060301F346BB268268 /* [CP] Check Pods Manifest.lock */,
 				8BC333AC20F85E4C00F9D077 /* Sources */,
 				8BC333AD20F85E4C00F9D077 /* Frameworks */,
 				8BC333AE20F85E4C00F9D077 /* Resources */,
+				750F22E7C3AB01FAD2CF203C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,21 +225,81 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BC333C120F85E4D00F9D077 /* LaunchScreen.storyboard in Resources */,
+				8B274F5120F8B01700A1EBA9 /* checkWord.png in Resources */,
+				8B274F2920F85FF200A1EBA9 /* text.png in Resources */,
+				8B274F4520F8994100A1EBA9 /* go.png in Resources */,
+				8B73E01320F93A94004690A5 /* translation.png in Resources */,
+				8B274F3320F883A900A1EBA9 /* logo.png in Resources */,
+				8B274F3120F861B500A1EBA9 /* tessdata in Resources */,
 				8BC333BE20F85E4D00F9D077 /* Assets.xcassets in Resources */,
 				8BC333B920F85E4C00F9D077 /* Main.storyboard in Resources */,
+				8B274F4E20F8AD3F00A1EBA9 /* keyboard.png in Resources */,
+				8B274F5520F8C64C00A1EBA9 /* check.png in Resources */,
+				8B274F4F20F8AD3F00A1EBA9 /* camera.png in Resources */,
+				8B274F5320F8B16500A1EBA9 /* definition.png in Resources */,
+				8B274F4420F8994100A1EBA9 /* save.png in Resources */,
+				8B274F4D20F8AD3F00A1EBA9 /* photoLib.png in Resources */,
+				8B73E01120F931CE004690A5 /* pokemon_go.mp3 in Resources */,
+				8B274F3E20F88CC000A1EBA9 /* Pokeball.png in Resources */,
+				8B274F3820F8888A00A1EBA9 /* yourWords.png in Resources */,
+				8B274F3520F886E300A1EBA9 /* tag.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		750F22E7C3AB01FAD2CF203C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Tesseract/Pods-Tesseract-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TesseractOCRiOS/TesseractOCR.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TesseractOCR.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tesseract/Pods-Tesseract-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD288D060301F346BB268268 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tesseract-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8BC333AC20F85E4C00F9D077 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BC333B620F85E4C00F9D077 /* ViewController.swift in Sources */,
+				8B274F4920F8ABA500A1EBA9 /* ManualEntryVC.swift in Sources */,
+				8BC333B620F85E4C00F9D077 /* MainVC.swift in Sources */,
 				8BC333BC20F85E4C00F9D077 /* Tesseract.xcdatamodeld in Sources */,
+				8B73E01520F93BB2004690A5 /* TranslateVC.swift in Sources */,
 				8BC333B420F85E4C00F9D077 /* AppDelegate.swift in Sources */,
+				8B274F4720F8AB7B00A1EBA9 /* PhotoLibraryVC.swift in Sources */,
+				8B274F3A20F8897200A1EBA9 /* CameraVC.swift in Sources */,
+				8B274F4020F895AB00A1EBA9 /* WordPickerVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -201,6 +360,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -261,6 +421,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -282,10 +443,12 @@
 		};
 		8BC333C620F85E4D00F9D077 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5C01C7B1A5A5C11192B87D4 /* Pods-Tesseract.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6Z99BDRAM5;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Tesseract/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -300,10 +463,12 @@
 		};
 		8BC333C720F85E4D00F9D077 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 555855F627019EEDB186CAC6 /* Pods-Tesseract.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6Z99BDRAM5;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Tesseract/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
